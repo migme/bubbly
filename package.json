@@ -1,0 +1,47 @@
+{
+  "name": "bubbly",
+  "version": "1.0.0",
+  "description": "Shorthand for event handling",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migme/bubbly.git"
+  },
+  "keywords": [
+    "event",
+    "customevent",
+    "eventtarget"
+  ],
+  "author": "Sebastiaan Deckers <seb@ninja.sg>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migme/bubbly/issues"
+  },
+  "homepage": "https://github.com/migme/bubbly#readme",
+  "devDependencies": {
+    "babel": "^5.6.12",
+    "babel-eslint": "^3.1.19",
+    "chai": "^3.0.0",
+    "customevent-shim": "^0.1.0",
+    "event-target-shim": "^1.0.5",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.3",
+    "sinon-chai": "^2.8.0",
+    "standard": "^4.3.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
