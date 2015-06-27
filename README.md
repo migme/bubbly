@@ -1,9 +1,8 @@
 # bubbly
 
 [![Travis CI](https://img.shields.io/travis/migme/bubbly.svg)](https://travis-ci.org/migme/bubbly)
-[![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![npm](https://img.shields.io/npm/v/migme-bubbly.svg)](https://www.npmjs.com/package/migme-bubbly)
-[![npm](https://img.shields.io/npm/dm/migme-bubbly.svg)](https://www.npmjs.com/package/migme-bubbly)
+[![npm](https://img.shields.io/npm/v/bubbly.svg)](https://www.npmjs.com/package/migme-bubbly)
+[![npm](https://img.shields.io/npm/dm/bubbly.svg)](https://www.npmjs.com/package/migme-bubbly)
 
 Effortlessly create [CustomEvent](https://dom.spec.whatwg.org/#interface-customevent) instances.
 
