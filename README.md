@@ -21,28 +21,28 @@ npm install --save bubbly
 
 ## Usage
 
-### dispatch
+### dispatch(type, detail)
 ```js
 import {dispatch} from 'bubbly'
 const target = new EventTarget()
 target::dispatch('welcome', { hello: 'world' })
 ```
 
-### bubble
+### bubble(type, detail)
 Like `dispatch` but lets the event bubble up.
 ```js
 import {bubble} from 'bubbly'
 document.body::bubble('shake', { dat: 'booty' })
 ```
 
-### on
+### on(type, handler)
 Alias for `addEventListener`.
 ```js
 import {on} from 'bubbly'
 document::on('DOMContentLoaded', ::console.info)
 ```
 
-### once
+### once(type, handler)
 Wait for an event to fire, then stop listening.
 ```js
 import {once} from 'bubbly'
@@ -50,7 +50,7 @@ const anchor = document.createElement('a')
 anchor::once('click', event => event.preventDefault())
 ```
 
-### off
+### off(type, handler)
 Alias for `removeEventListener`.
 ```js
 import {off} from 'bubbly'
