@@ -63,6 +63,11 @@ Run tests
 npm test
 ```
 
+TDD
+```
+mocha --watch
+```
+
 ## See Also
 - [customevent-shim](https://www.npmjs.com/package/customevent-shim)
 - [event-target-shim](https://www.npmjs.com/package/event-target-shim)
