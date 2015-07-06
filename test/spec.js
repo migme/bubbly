@@ -29,12 +29,19 @@ describe('events wrapper', () => {
       })
       target::dispatch(type)
     })
-    it('only one time', done => {
+    it('shall say this only once', done => {
       target::once(type, event => {
         expect(event.type).to.equal(type)
         done()
       })
       target::dispatch(type)
+      target::dispatch(type)
+    })
+    it('turns an event into a promise', done => {
+      target::once(type).then(event => {
+        expect(event.type).to.equal(type)
+        done()
+      })
       target::dispatch(type)
     })
     it('stops listening', () => {
