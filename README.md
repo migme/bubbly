@@ -41,6 +41,13 @@ import {on} from 'bubbly'
 document::on('DOMContentLoaded', ::console.info)
 ```
 
+### off(type, handler)
+Alias for `removeEventListener`.
+```js
+import {off} from 'bubbly'
+document::off('DOMContentLoaded')
+```
+
 ### once(type, handler)
 Wait for an event to fire, then stop listening.
 ```js
@@ -48,12 +55,9 @@ import {once} from 'bubbly'
 const anchor = document.createElement('a')
 anchor::once('click', event => event.preventDefault())
 ```
-
-### off(type, handler)
-Alias for `removeEventListener`.
+Or treat an event like a Promise.
 ```js
-import {off} from 'bubbly'
-document::off('DOMContentLoaded')
+await anchor::once('click')
 ```
 
 ## Development
