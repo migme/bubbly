@@ -1,6 +1,6 @@
 {
   "name": "bubbly",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shorthand for event handling",
   "main": "lib/index.js",
   "directories": {
