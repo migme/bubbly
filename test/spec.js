@@ -1,7 +1,7 @@
 /* global describe it sinon expect beforeEach */
 
 import EventTarget from 'event-target-shim'
-import {dispatch, bubble, on, once, off} from '../'
+import {dispatch, bubble, on, once, off} from '../lib'
 
 describe('events wrapper', () => {
   const type = 'foo'

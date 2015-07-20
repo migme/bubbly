@@ -2,13 +2,15 @@
   "name": "bubbly",
   "version": "1.1.0",
   "description": "Shorthand for event handling",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "pretest": "standard",
-    "test": "mocha"
+    "test": "mocha",
+    "build": "mkdir -p dist && babel lib/index.js --out-file dist/index.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
