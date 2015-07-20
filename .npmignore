@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+*.log
+src/
+test/
+.npmignore
+.editorconfig
+.babelrc
+.travis.yml
