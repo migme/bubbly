@@ -1,6 +1,7 @@
 # bubbly
 
 [![Travis CI](https://img.shields.io/travis/migme/bubbly.svg)](https://travis-ci.org/migme/bubbly)
+[![Dependency Status](https://gemnasium.com/migme/bubbly.svg)](https://gemnasium.com/migme/bubbly)
 [![npm](https://img.shields.io/npm/v/bubbly.svg)](https://www.npmjs.com/package/bubbly)
 [![npm](https://img.shields.io/npm/dm/bubbly.svg)](https://www.npmjs.com/package/bubbly)
 
