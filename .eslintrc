@@ -1,0 +1,4 @@
+{
+  "extends": "migme",
+  "parser": "babel-eslint"
+}
