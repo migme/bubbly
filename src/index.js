@@ -2,7 +2,7 @@
 
 export function dispatch (type, detail, opts = {}) {
   const init = Object.assign({
-    detail: detail
+    detail,
   }, opts)
   const event = new CustomEvent(type, init)
   this.dispatchEvent(event)

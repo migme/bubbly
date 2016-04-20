@@ -1,7 +1,7 @@
 /* global describe it sinon expect beforeEach */
 
 import EventTarget from 'event-target-shim'
-import {dispatch, bubble, on, once, off} from '../src'
+import { dispatch, bubble, on, once, off } from '../src'
 
 describe('events wrapper', () => {
   const type = 'foo'
@@ -49,7 +49,7 @@ describe('events wrapper', () => {
       target::on(type, stub)
       target::off(type, stub)
       target::dispatch(type)
-      expect(stub).to.have.not.been.called
+      expect(stub).to.have.not.been.called // eslint-disable-line no-unused-expressions
     })
   })
 })
