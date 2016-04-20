@@ -1,4 +1,4 @@
 {
-  "extends": "migme",
+  "extends": "migme/base",
   "parser": "babel-eslint"
 }
